@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, 'Helvetica Neue', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: rgb(250, 250, 250);
+    margin:5%;
+}
+
+@media print{
+    * {
+        background-color:white !important;
+        border: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    div#name, div#email, div#number{
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+
+    #header {
+        width: 90%;
+        float: left; 
+        margin-bottom:1em;
+    }
+}
+
+
+
+#header {
+    font-size: large;
+    line-height: 2em;
+    vertical-align: text-bottom;
+}
+
+#email {
+    width: 33%;
+    float: left;
+}
+
+#name {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+}
+
+#number {
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+
+
+dl > dd > p {
+    text-align: right;
+}
+
+h3#education + dl > dd > p {
+    text-align: left;
+}
+
+h3 {
+    font-size: x-large;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+dl, #header, h3#skills + div, h3#activities-hobbies + div {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: 1px;
+    padding: 1em;
+}
+
+dt {
+    font-size: large;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+span.nodecor {
+    margin-right: 1em;
+}
