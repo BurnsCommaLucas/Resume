@@ -88,3 +88,13 @@ ul {
 span.nodecor {
     margin-right: 1em;
 }
+
+a {
+    color: #333;
+}
+
+.centering {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
