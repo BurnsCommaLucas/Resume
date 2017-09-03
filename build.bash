@@ -15,7 +15,7 @@ echo '##########################################################'
 
 pandoc "$DIR/resume.tex" -o "$DIR/resume.html"
 
-# misguided attempt to left aligh coursework
+# misguided attempt to left align coursework
 # sed -i -e 's/<dd><p>Computer Networks/<dd><p id="coursework">Computer Networks/' "$DIR/resume.html"
 
 echo '</div>' >> "$DIR/resume.html"
