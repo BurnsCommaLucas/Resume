@@ -13,7 +13,7 @@ body {
 
 
 @media only screen and (max-width: 450px) {
-    div#name, div#email, div#number{
+    div#name, div#email, div#number, div#pdf{
         text-align: center;
         display: inline-block;
         width: 100%;
@@ -62,12 +62,12 @@ body {
 
 
 
-dl > dd > p {
-    text-align: right;
+dl > dd > p, dl > dd > p#coursework {
+    text-align: left;
 }
 
-h3#education + dl > dd > p {
-    text-align: left;
+h3#education + dl > dd > p, h3#experience + dl > dd > p {
+    text-align: right;
 }
 
 h3 {
