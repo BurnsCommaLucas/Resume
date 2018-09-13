@@ -1,9 +1,9 @@
 \documentclass{article}
     \usepackage{fancyhdr}
-    \usepackage{hyperref}\hypersetup{
-        colorlinks=false
-    }
     \usepackage[top=1.6in, bottom=0in, left=1in, right=1in]{geometry}
+    \usepackage{hyperref}\hypersetup{
+        allcolors = black
+    }
     
     \usepackage{enumitem}
     \setlist{leftmargin=1cm,labelindent=1cm,itemsep=1.4pt,parsep=0pt}
@@ -12,10 +12,9 @@
     \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} % make bullets smaller
     
     \pagestyle{fancy}
-    \chead{\Large \textbf{Lucas Burns}}
-    \lhead{\Large \href{mailto:lucas@burns.io}{lucas@burns.io}}
+    \chead{\LARGE{\textbf{Lucas Burns}}\\ \normalsize lucas.burns.io}
+    \lhead{\large lucas@burns.io}
     \rhead{\large 253.279.3332}
-    \cfoot{}
 \begin{document}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -33,6 +32,7 @@
             Artificial Intelligence, 
             Computer Graphics, 
             Analysis of Algorithms,
+            Statistics \& Probability,
             Linear Algebra
     \end{description}
 
@@ -43,24 +43,22 @@
 
 \subsubsection*{Technical Skills}
     \begin{description}    
-        \item[Languages:] 
+        \item[Languages/Frameworks:] 
             Java, 
             C, 
-            C++, 
-            C\#, 
+            JavaScript, 
+            AngularJS,
             Python, 
             Django, 
-            HTML, 
-            CSS, 
-            JavaScript, 
+            C\#, 
             OpenGL
 
             \vspace{0.5em}
 
         \item[Tools:] 
-            Git, 
-            Bash, 
             Unix, 
+            Shell, 
+            Git, 
             Emacs, 
             Visual Studio, 
             Unity, 
@@ -84,18 +82,19 @@
 
             \vspace{0.5em}
 
-        \item[\href{https://github.com/BurnsCommaLucas/ready-bot}{ready-bot:}] A WoW style ready-check bot for Discord servers.
+        \item[ready-bot:] A ready-check bot for Discord servers.
             \begin{itemize}
                 \item Built using JavaScript and the Discord JS framework.
-                \item Deployed on Heroku with automatic builds from GitHub.
-                \item CI testing throuh Travis CI.
+                \item Deployed on Heroku with automatic builds from GitHub and CI testing through Travis CI.
             \end{itemize}
 
             \vspace{0.5em}
 
-        \item[Traceroute:] Standalone implementation of the common traceroute utility.
+        \item[Rolling Plan Interface:] Simultaneous multi-user mill scheduling tool.
             \begin{itemize}
-                \item Built using Python3 for use on Unix-based systems.
+                \item Built using ag-Grid on AngularJS querying a Spring back end.
+                \item Allows multiple users to view live data but only one user to modify at a time.
+                \item Dynamically fills out time fields for "Mill Down" segments.
             \end{itemize}
 
             \vspace{0.5em}
@@ -104,7 +103,7 @@
             \begin{itemize}
                 \item Eagle Scout, earned June 2013.
                 \item Proficient in 8 instruments and 3 spoken languages.
-                \item Able to solve a Rubix cube, best solve time 57 seconds.
+                \item Able to solve a 3x3 Rubix cube, best solve time 57 seconds.
         \end{itemize}
     \end{description}
 %----------------------------------------------------------------------------------------
@@ -119,8 +118,8 @@
 		
 		EVRAZ North America, Portland, OR
 		\begin{itemize}
-			\item Upgrade and maintain production support tools for use by internal departments and external customers.
-			\item Build systems to increase rolling and heat-treat mill production rates.
+			\item Create and maintain mill production tools for internal and external users.
+			\item Collaborate directly with customers to design and refine application functionality and interfaces.
 		\end{itemize}
 		
 		\vspace{0.5em}
@@ -135,6 +134,11 @@
 
         
     \end{description}
+    
+    \begin{center}
+	\vspace{.25in}
+    \href{https://www.github.com/BurnsCommaLucas/Resume}{\tiny Built with \LaTeX \hspace{0.001in} \& Pandoc}
+    \end{center}
 
 
 \end{document}
