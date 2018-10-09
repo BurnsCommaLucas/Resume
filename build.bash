@@ -4,6 +4,7 @@ DIR=$(dirname $(realpath $0))
 echo "$DIR"
 
 # build pdf
+echo '##########################################################'
 echo building latex
 echo '##########################################################'
 pdflatex -file-line-error $DIR/resume.tex
@@ -14,9 +15,6 @@ echo building html
 echo '##########################################################'
 
 pandoc "$DIR/resume.tex" -o "$DIR/resume.html"
-
-# misguided attempt to left align coursework
-# sed -i -e 's/<dd><p>Computer Networks/<dd><p id="coursework">Computer Networks/' "$DIR/resume.html"
 
 echo '</div>' >> "$DIR/resume.html"
 echo '</body>' >> "$DIR/resume.html"
