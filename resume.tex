@@ -1,7 +1,7 @@
 \documentclass{article}
     \usepackage{fancyhdr}
     \usepackage[top=1.6in, bottom=0in, left=1in, right=1in]{geometry}
-    \usepackage{hyperref}\hypersetup{
+    \usepackage[hidelinks]{hyperref}\hypersetup{
         allcolors = black
     }
     
@@ -12,8 +12,8 @@
     \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} % make bullets smaller
     
     \pagestyle{fancy}
-    \chead{\LARGE{\textbf{Lucas Burns}}\\ \normalsize lucas.burns.io}
-    \lhead{\large lucas@burns.io}
+    \chead{\LARGE{\textbf{Lucas Burns}}\\ \normalsize \href{http://lucas.burns.io/}{lucas.burns.io}}
+    \lhead{\href{mailto:lucas@burns.io}{\large lucas@burns.io}}
     \rhead{\large 253.279.3332}
 \begin{document}
 %----------------------------------------------------------------------------------------
@@ -73,15 +73,15 @@
     \begin{description}
         \item[UP Ride Finder:] Web-based system for coordinating long distance ride sharing.
             \begin{itemize}
+                \item Built using Django and jQuery.
                 \item Presented in-progress and final product to a large group of peers, professors, and community members over the course of development.
-                \item Built using Python and Django for back-end, and HTML, CSS, and JavaScript for front-end.
                 \item Pulls from Google Places API to resolve ZIP codes into city names and maps.
                 \item Version control done through GitLab.
             \end{itemize}
 
             \vspace{0.5em}
 
-        \item[ready-bot:] A ready-check bot for Discord servers.
+        \item[\href{https://www.github.com/BurnsCommaLucas/Resume}{ready-bot:}] A ready-check bot for Discord servers.
             \begin{itemize}
                 \item Built using JavaScript and the Discord JS framework.
                 \item Deployed on Heroku with automatic builds from GitHub and CI testing through Travis CI.
