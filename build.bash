@@ -16,10 +16,10 @@ echo '##########################################################'
 
 pandoc "$DIR/resume.tex" -o "$DIR/resume.html"
 
-echo '</div>' >> "$DIR/resume.html"
-echo '</body>' >> "$DIR/resume.html"
-echo '</html>' >> "$DIR/resume.html"
+# echo '</div>' >> "$DIR/resume.html"
+# echo '</body>' >> "$DIR/resume.html"
+# echo '</html>' >> "$DIR/resume.html"
 
 cat "$DIR/header.html" "$DIR/resume.html" > "$DIR/resume.tmp"
-mv -v "$DIR/resume.html" ~/.Trash
+mv -v "$DIR/resume.html" ~/.local/share/Trash/
 mv "$DIR/resume.tmp" "$DIR/resume.html"
