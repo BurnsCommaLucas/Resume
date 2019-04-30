@@ -90,6 +90,7 @@ ul {
 }
 
 span.nodecor {
+    text-decoration: none;
     margin-right: 1em;
 }
 
