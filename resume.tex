@@ -1,11 +1,12 @@
 \documentclass{article}
     \usepackage{fancyhdr}
-    \usepackage[top=1.6in, bottom=0in, left=1in, right=1in]{geometry}
+    \usepackage[top=1.3in, bottom=0in, left=1in, right=1in]{geometry}
     \usepackage[hidelinks]{hyperref}\hypersetup{
         allcolors = black
     }
     
-    \usepackage{enumitem}
+    \usepackage{enumitem} 
+    \usepackage{multicol}
     \setlist{leftmargin=1cm,labelindent=1cm,itemsep=1.4pt,parsep=0pt}
     \renewcommand{\familydefault}{\sfdefault}
     \renewcommand{\headrulewidth}{.5pt}
@@ -27,22 +28,23 @@
 		
 		\item[Full Stack Software Engineer] \hfill \textit{Nov. 2017 - Present}
 		
-		\textit{EVRAZ North America, Portland, OR}
-		\begin{itemize}
-			\item Design and improve desktop, terminal, and web applications.
-			\item Maintain legacy mill production applications for internal and external users.
-			\item Collaborate with developers and customers to scope development projects.
-		\end{itemize}
-		
+        \textit{EVRAZ North America, Portland, OR}
+        \begin{itemize}     
+            \item Design and improve desktop, terminal, and web applications.
+            \item Maintain legacy mill production applications for internal and external users.
+            \item Collaborate with developers and customers to scope development projects.
+        \end{itemize}
+        Technologies: Angular, Java, Spring, C, SQL
 		\vspace{0.5em}
 		
         \item[Industrial Math Intern] \hfill \textit{Jan. 2016 - May 2016}
         
         \textit{PIC Math, Portland, OR}
         \begin{itemize}
-            \item Analyze hydroelectric optimization models used in dams across the Pacific Northwest.
-            \item Create more accurate models using linear programming in Xpress-Mosel.
+            \item Analyzed hydroelectric optimization models used in dams across the Pacific Northwest.
+            \item Created more accurate models using linear programming.
         \end{itemize}
+        Technologies: Xpress-Mosel, Python, R
 
         
     \end{description}
@@ -54,7 +56,7 @@
     \begin{description}
         \item[B.S. Computer Science, Mathematics Minor]\hfill \textit{May 2017}
 
-        \textit{University of Portland, Portland, Oregon}
+        \textit{University of Portland, Portland, OR}
 
         \vspace{0.5em}
 
@@ -101,27 +103,27 @@
 
 \subsubsection*{Projects and Accomplishments}
     \begin{description}
-        \item[UP Ride Finder:] Web-based system for coordinating long distance ride sharing.
+        \item[Process-Week Generator:] Planning utility to estimate mill order process-weeks.
             \begin{itemize}
-                \item Built using Django and jQuery.
-                \item Presented in-progress and final product to a large group of peers, professors, and community members over the course of development.
-                \item Pulls from Google Places API to resolve ZIP codes into city names and maps.
-                \item Version control done through GitLab.
+                \item Built using Java and Swing, pulls order/process information from InformixDB.
+                \item Calcaultes a best-fit process timeline for a given order to find its earliest possible ship date.
+                \item Used daily by a team of Production Planners to predict material processing demand.
             \end{itemize}
 
             \vspace{0.5em}
 
-        \item[\href{https://www.github.com/BurnsCommaLucas/Resume}{ready-bot:}] A ready-check bot for Discord servers.
+        \item[\href{https://www.github.com/BurnsCommaLucas/ready-bot}{ready-bot:}] A ready-check bot for Discord servers.
             \begin{itemize}
-                \item Built using JavaScript and the Discord JS framework.
+                \item Built using JavaScript and the DiscordJS framework.
                 \item Deployed on Heroku with automatic builds from GitHub and CI testing through Travis CI.
+                \item Used on 70+ unique Discord channels.
             \end{itemize}
 
             \vspace{0.5em}
 
         \item[Rolling Plan Interface:] Simultaneous multi-user mill scheduling tool.
             \begin{itemize}
-                \item Built using ag-Grid on AngularJS querying a Spring/Informix back end.
+                \item Built using ag-Grid and Angular querying a Spring/Informix back end.
                 \item Allows multiple users to view live data but only one user to modify at a time.
                 \item Dynamically generates time/duration segments for mill inactivity timing.
             \end{itemize}
