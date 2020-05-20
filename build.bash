@@ -3,6 +3,13 @@
 DIR=$(dirname $(realpath $0))
 echo "$DIR"
 
+# build gfm markdown readme
+echo '##########################################################'
+echo building gfm readme
+echo '##########################################################'
+
+pandoc "$DIR/resume.tex" -o "$DIR/README.md" -t gfm
+
 # build pdf
 echo '##########################################################'
 echo building latex
@@ -16,10 +23,7 @@ echo '##########################################################'
 
 pandoc "$DIR/resume.tex" -o "$DIR/resume.html"
 
-# echo '</div>' >> "$DIR/resume.html"
-# echo '</body>' >> "$DIR/resume.html"
-# echo '</html>' >> "$DIR/resume.html"
 
 cat "$DIR/header.html" "$DIR/resume.html" > "$DIR/resume.tmp"
-mv -v "$DIR/resume.html" ~/.local/share/Trash/
+#mv -v "$DIR/resume.html" ~/.local/share/Trash/
 mv "$DIR/resume.tmp" "$DIR/resume.html"
