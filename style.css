@@ -65,6 +65,11 @@ dl > dd > p, dl > dd > p#coursework {
     text-align: left;
 }
 
+h3#education + dl > dd > p, 
+h3#experience + dl > dd > p {
+    text-align: right;
+}
+
 h3#education + dl > dd > p, h3#experience + dl > dd > p {
     text-align: right;
 }
