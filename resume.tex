@@ -1,21 +1,26 @@
 \documentclass{article}
     \usepackage{fancyhdr}
-    \usepackage[top=1.3in, bottom=0in, left=1in, right=1in]{geometry}
+    \usepackage[top=1in, bottom=0in, left=0.8in, right=0.8in]{geometry}
     \usepackage[hidelinks]{hyperref}\hypersetup{
         allcolors = black
     }
     
     \usepackage{enumitem} 
     \usepackage{multicol}
+    \usepackage{fontawesome}
     \setlist{leftmargin=1cm,labelindent=1cm,itemsep=1.4pt,parsep=0pt}
     \renewcommand{\familydefault}{\sfdefault}
     \renewcommand{\headrulewidth}{.5pt}
     \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} % make bullets smaller
     
     \pagestyle{fancy}
-    \chead{\LARGE{\textbf{Lucas Burns}}\\ \normalsize \href{http://lucas.burns.io/}{lucas.burns.io}}
-    \lhead{\href{mailto:lucas@burns.io}{\large lucas@burns.io}}
-    \rhead{\large 253.279.3332}
+    \chead{\LARGE{\textbf{Lucas Burns}}\\ \vspace{0.085in} \normalsize 
+    \href{https://lucas.burns.io/}{\faicon{link}}\hspace{0.085in}
+    \href{https://www.github.com/BurnsCommaLucas}{\faicon{github}}\hspace{0.085in}
+    \href{https://www.linkedin.com/in/burnscommalucas/}{\faicon{linkedin}}
+    }
+    \lhead{\href{mailto:lucas@burns.io}{\large \textit{lucas@burns.io}} }
+    \rhead{\large \textit{253.279.3332}}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -28,13 +33,14 @@
 		
 	\item[Backend Engineer] \hfill \textit{Feb. 2020 - Present}
 		
-        \textit{Lithia Motors, Portland, OR}
-        \begin{itemize}     
+        \textit{Driveway, Portland, OR}
+        \begin{itemize}
+        \item Support nation-wide search of 20,000+ pre-owned vehicles using MongoDB Atlas.
+        \item Implement a custom search API and translation layer using Spring \& GraphQL.
         \item Architect backend services for online sales of automotive inventory.
-        \item Implement reactive systems using Spring WebFlux and Project Reactor.
           
         \end{itemize}
-        \textit{Technologies:} Kotlin, Kubernetes, Azure, Cosmos DB, Spring, WebFlux
+        \textit{Technologies:} Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas, Kubernetes, Azure
 		\vspace{0.5em}
 
 	\item[Full Stack Software Engineer] \hfill \textit{Nov. 2017 - Feb. 2020}
@@ -45,7 +51,7 @@
             \item Maintain legacy mill production applications for internal and external users.
             \item Collaborate with developers and customers to scope development projects.
         \end{itemize}
-        \textit{Technologies:} Angular, Java, Spring, C, SQL
+        \textit{Technologies:} Java, Spring, Angular, Javascript, C, SQL
         
     \end{description}
 
@@ -58,10 +64,10 @@
         \item[Languages/Frameworks:] 
             Java, 
             Kotlin,
+            GraphQL,
             C,
             JavaScript,
             Angular,
-            Python,
             ShaderLab, 
             C\#,
             OpenGL
@@ -88,20 +94,20 @@
 
 \subsubsection*{Projects and Accomplishments}
     \begin{description}
-        \item[\href{https://www.github.com/BurnsCommaLucas/ready-bot}{ready-bot:}] A ready-check bot for Discord servers.
+
+        \item[\href{https://driveway.com/shop}{Driveway.com:\hspace{0.075in}\faicon{link}}] Used-vehicle inventory database \& APIs.
             \begin{itemize}
-                \item Built using the DiscordJS framework.
-                \item Deployed on Heroku with automatic builds from GitHub.
-                \item Verified by Discord and used by 400+ unique Discord servers.
+                \item Built using Kotlin, Spring, WebFlux, and MongoDB Atlas with CI/CD through Azure DevOps and Kubernetes.
+                \item Construct ETL systems from third party data aggregator to internal database.
+                \item Provide endpoints for altering inventory through business rules, cart activity, and product decisions.
             \end{itemize}
 
             \vspace{0.5em}
-
-        \item[\href{https://driveway.com/shop}{Driveway.com:}] Used-vehicle inventory database \& APIs.
+        \item[\href{https://www.github.com/BurnsCommaLucas/ready-bot}{ready-bot:\hspace{0.075in}\faicon{github}}] A ready-check bot for Discord servers.
             \begin{itemize}
-                \item Built using Kotlin + WebFlux, CosmosDB, and App Search with CI/CD through Azure DevOps and Kubernetes.
-                \item Construct ETL systems from third party data aggregator to internal database.
-                \item Provide endpoints for hiding cars through business rules, cart activity, and product decisions.
+                \item Built using the DiscordJS framework.
+                \item Deployed on Heroku with automatic builds from GitHub.
+                \item Verified by Discord and used by 500+ unique Discord servers.
             \end{itemize}
 
             \vspace{0.5em}
@@ -118,7 +124,7 @@
         \item[Miscellaneous:] \hfill
             \begin{itemize}
                 \item Eagle Scout, BSA.
-                \item Proficient in 8 instruments and 3 spoken languages.
+                \item Proficient in 8 musical instruments.
                 \item Able to solve a 3x3 puzzle cube, best solve time 57 seconds.
         \end{itemize}
     \end{description}
@@ -132,21 +138,20 @@
 
         \textit{University of Portland, Portland, OR}
 
-        \vspace{0.5em}
+%        \vspace{0.5em}
 
-        \item[Coursework:]
-            Computer Networks, 
-            Artificial Intelligence, 
-            Computer Graphics, 
-            Analysis of Algorithms,
-            Statistics \& Probability,
-            Linear Algebra
+%        \item[Coursework:]
+%            Computer Networks, 
+%            Artificial Intelligence, 
+%            Computer Graphics, 
+%            Analysis of Algorithms,
+%            Statistics \& Probability,
+%            Linear Algebra
     \end{description}
     
     \begin{center}
 	\vspace{.25in}
-    \href{https://www.github.com/BurnsCommaLucas/Resume}{\tiny Built with \LaTeX \hspace{0.001in} \& Pandoc}
+    \href{https://www.github.com/BurnsCommaLucas/Resume}{\small Built with \LaTeX \hspace{0.001in} \& Pandoc}
     \end{center}
-
 
 \end{document}

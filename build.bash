@@ -23,7 +23,6 @@ echo '##########################################################'
 
 pandoc "$DIR/resume.tex" -o "$DIR/resume.html"
 
-
-cat "$DIR/header.html" "$DIR/resume.html" > "$DIR/resume.tmp"
+cat "$DIR/header.html" "$DIR/resume.html" "$DIR/footer.html" >"$DIR/resume.tmp"
 #mv -v "$DIR/resume.html" ~/.local/share/Trash/
 mv "$DIR/resume.tmp" "$DIR/resume.html"

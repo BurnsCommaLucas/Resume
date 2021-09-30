@@ -3,13 +3,18 @@
 Backend Engineer  
 *Feb. 2020 - Present*
 
-*Lithia Motors, Portland, OR*
+*Driveway, Portland, OR*
+
+-   Support nation-wide search of 20,000+ pre-owned vehicles using
+    MongoDB Atlas.
+
+-   Implement a custom search API and translation layer using Spring &
+    GraphQL.
 
 -   Architect backend services for online sales of automotive inventory.
 
--   Implement reactive systems using Spring WebFlux and Project Reactor.
-
-*Technologies:* Kotlin, Kubernetes, Azure, Cosmos DB, Spring, WebFlux
+*Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas,
+Kubernetes, Azure
 
 Full Stack Software Engineer  
 *Nov. 2017 - Feb. 2020*
@@ -24,18 +29,30 @@ Full Stack Software Engineer
 -   Collaborate with developers and customers to scope development
     projects.
 
-*Technologies:* Angular, Java, Spring, C, SQL
+*Technologies:* Java, Spring, Angular, Javascript, C, SQL
 
 ### Technical Skills
 
 Languages/Frameworks:  
-Java, Kotlin, C, JavaScript, Angular, Python, ShaderLab, C\#, OpenGL
+Java, Kotlin, GraphQL, C, JavaScript, Angular, ShaderLab, C#, OpenGL
 
 Tools:  
 Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
 Unity, Blender
 
 ### Projects and Accomplishments
+
+[Driveway.com:](https://driveway.com/shop)  
+Used-vehicle inventory database & APIs.
+
+-   Built using Kotlin, Spring, WebFlux, and MongoDB Atlas with CI/CD
+    through Azure DevOps and Kubernetes.
+
+-   Construct ETL systems from third party data aggregator to internal
+    database.
+
+-   Provide endpoints for altering inventory through business rules,
+    cart activity, and product decisions.
 
 [ready-bot:](https://www.github.com/BurnsCommaLucas/ready-bot)  
 A ready-check bot for Discord servers.
@@ -44,19 +61,7 @@ A ready-check bot for Discord servers.
 
 -   Deployed on Heroku with automatic builds from GitHub.
 
--   Verified by Discord and used by 400+ unique Discord servers.
-
-[Driveway.com:](https://driveway.com/shop)  
-Used-vehicle inventory database & APIs.
-
--   Built using Kotlin + WebFlux, CosmosDB, and App Search with CI/CD
-    through Azure DevOps and Kubernetes.
-
--   Construct ETL systems from third party data aggregator to internal
-    database.
-
--   Provide endpoints for hiding cars through business rules, cart
-    activity, and product decisions.
+-   Verified by Discord and used by 500+ unique Discord servers.
 
 Process-Week Generator:  
 Planning utility to estimate mill order process-weeks.
@@ -73,7 +78,7 @@ Planning utility to estimate mill order process-weeks.
 Miscellaneous:  
 -   Eagle Scout, BSA.
 
--   Proficient in 8 instruments and 3 spoken languages.
+-   Proficient in 8 musical instruments.
 
 -   Able to solve a 3x3 puzzle cube, best solve time 57 seconds.
 
@@ -84,9 +89,9 @@ B.S. Computer Science, Mathematics Minor
 
 *University of Portland, Portland, OR*
 
-Coursework:  
-Computer Networks, Artificial Intelligence, Computer Graphics, Analysis
-of Algorithms, Statistics & Probability, Linear Algebra
+<div class="center">
 
 [Built with LaTeX &
 Pandoc](https://www.github.com/BurnsCommaLucas/Resume)
+
+</div>
