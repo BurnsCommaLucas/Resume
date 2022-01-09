@@ -1,17 +1,20 @@
 ### Experience
 
+Senior Backend Engineer,  
+*Jan. 2022 - Present*
+
 Backend Engineer  
-*Feb. 2020 - Present*
+*Feb. 2020 - Dec. 2021*
 
 *Driveway, Portland, OR*
 
--   Support nation-wide search of 20,000+ pre-owned vehicles using
-    MongoDB Atlas.
+-   Support nation-wide search of over 20,000 new and used vehicles
+    using MongoDB Atlas.
 
--   Implement a custom search API and translation layer using Spring &
-    GraphQL.
+-   Implement backend services for online sales of automotive inventory.
 
--   Architect backend services for online sales of automotive inventory.
+-   Architect a custom search API and translation layer using Spring,
+    GraphQL, and MongoDB Atlas Search.
 
 *Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas,
 Kubernetes, Azure
@@ -43,16 +46,16 @@ Unity, Blender
 ### Projects and Accomplishments
 
 [Driveway.com:](https://driveway.com/shop)  
-Used-vehicle inventory database & APIs.
+Vehicle search APIs & database.
 
--   Built using Kotlin, Spring, WebFlux, and MongoDB Atlas with CI/CD
-    through Azure DevOps and Kubernetes.
+-   Built using Kotlin, Spring, and MongoDB Atlas with CI/CD through
+    Azure DevOps and Kubernetes.
 
--   Construct ETL systems from third party data aggregator to internal
-    database.
+-   Designed for faceted and text search of organization wide vehicle
+    inventory.
 
--   Provide endpoints for altering inventory through business rules,
-    cart activity, and product decisions.
+-   Integrates ETL processes from multiple third party sources to
+    provide tailored shopping experiences.
 
 [ready-bot:](https://www.github.com/BurnsCommaLucas/ready-bot)  
 A ready-check bot for Discord servers.
@@ -61,7 +64,7 @@ A ready-check bot for Discord servers.
 
 -   Deployed on Heroku with automatic builds from GitHub.
 
--   Verified by Discord and used by 500+ unique Discord servers.
+-   Verified by Discord and active in 500+ unique Discord servers.
 
 Process-Week Generator:  
 Planning utility to estimate mill order process-weeks.
