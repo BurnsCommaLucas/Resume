@@ -8,16 +8,17 @@ Backend Engineer
 
 *Driveway, Portland, OR*
 
--   Support nation-wide search of over 20,000 new and used vehicles
-    using MongoDB Atlas.
+-   Support nation-wide search of over 30,000 new and used vehicles
+    using MongoDB Atlas Search.
 
--   Implement backend services for online sales of automotive inventory.
+-   Implement backend services for online shopping of automotive
+    inventory.
 
--   Architect a custom search API and translation layer using Spring,
-    GraphQL, and MongoDB Atlas Search.
+-   Architect a highly customizable search API and translation layer
+    using Spring, GraphQL, and MongoDB Atlas Search.
 
-*Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas,
-Kubernetes, Azure
+*Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas Search,
+Kubernetes, Helm, Azure
 
 Full Stack Software Engineer  
 *Nov. 2017 - Feb. 2020*
@@ -37,7 +38,8 @@ Full Stack Software Engineer
 ### Technical Skills
 
 Languages/Frameworks:  
-Java, Kotlin, GraphQL, C, JavaScript, Angular, ShaderLab, C#, OpenGL
+Java, Kotlin, Spring, GraphQL, Python, C, JavaScript, Angular, C#,
+OpenGL
 
 Tools:  
 Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
@@ -48,14 +50,14 @@ Unity, Blender
 [Driveway.com:](https://driveway.com/shop)  
 Vehicle search APIs & database.
 
--   Built using Kotlin, Spring, and MongoDB Atlas with CI/CD through
-    Azure DevOps and Kubernetes.
+-   Built using Kotlin, Spring, and MongoDB Atlas Search with CI/CD
+    through Azure DevOps and Kubernetes/Helm.
 
 -   Designed for faceted and text search of organization wide vehicle
     inventory.
 
--   Integrates ETL processes from multiple third party sources to
-    provide tailored shopping experiences.
+-   Integrates ETL processes and realtime APIs from multiple third party
+    sources to provide tailored shopping experiences.
 
 [ready-bot:](https://www.github.com/BurnsCommaLucas/ready-bot)  
 A ready-check bot for Discord servers.
@@ -64,15 +66,15 @@ A ready-check bot for Discord servers.
 
 -   Deployed on Heroku with automatic builds from GitHub.
 
--   Verified by Discord and active in 500+ unique Discord servers.
+-   Verified by Discord and active in 600+ unique Discord servers.
 
 Process-Week Generator:  
-Planning utility to estimate mill order process-weeks.
+Production planning utility to estimate mill order process-weeks.
 
 -   Built using Java and Swing, pulls order/process information from
     InformixDB.
 
--   Calcaultes a best-fit process timeline for a given order to find its
+-   Calculates a best-fit process timeline for a given order to find its
     earliest possible ship date.
 
 -   Used daily by a team of Production Planners to predict material
