@@ -8,17 +8,18 @@ Backend Engineer
 
 *Driveway, Portland, OR*
 
--   Support nation-wide search of over 30,000 new and used vehicles
-    using MongoDB Atlas Search.
+-   Provide nation-wide search of over 50,000 new and used vehicles
+    across more than 250 dealerships using MongoDB & Atlas Search.
 
--   Implement backend services for online shopping of automotive
-    inventory.
+-   Develop a high performance, customizable search API using MongoDB &
+    Atlas Search, Spring, and GraphQL.
 
--   Architect a highly customizable search API and translation layer
-    using Spring, GraphQL, and MongoDB Atlas Search.
+-   Implement tools for internal product owners to manage and maintain
+    text search settings, sorting factors, and vehicle detail
+    categorization.
 
-*Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB Atlas Search,
-Kubernetes, Helm, Azure
+*Technologies:* Kotlin, Spring, WebFlux, GraphQL, MongoDB & Atlas
+Search, Kubernetes, Helm, Azure
 
 Full Stack Software Engineer  
 *Nov. 2017 - Feb. 2020*
@@ -27,7 +28,7 @@ Full Stack Software Engineer
 
 -   Design and improve desktop, terminal, and web applications.
 
--   Maintain legacy mill production applications for internal and
+-   Maintain legacy steel mill production applications for internal and
     external users.
 
 -   Collaborate with developers and customers to scope development
@@ -62,11 +63,13 @@ Vehicle search APIs & database.
 [ready-bot:](https://www.github.com/BurnsCommaLucas/ready-bot)  
 A ready-check bot for Discord servers.
 
--   Built using the DiscordJS framework.
+-   Built using the DiscordJS framework, verified by Discord, and active
+    in 600+ unique Discord servers.
 
 -   Deployed on Heroku with automatic builds from GitHub.
 
--   Verified by Discord and active in 600+ unique Discord servers.
+-   Runs ready checks for members of a server/channel, complete with the
+    updated slash command interface.
 
 Process-Week Generator:  
 Production planning utility to estimate mill order process-weeks.
