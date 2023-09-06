@@ -8,16 +8,19 @@ Backend Engineer
 
 *Driveway, Portland, OR*
 
-- Develop flexible search API for over 50,000 vehicles across 250
-  dealerships using MongoDB and Kotlin.
+- Design and implement a flexible search API for over 50,000 vehicles
+  across 250 dealerships using MongoDB Atlas.
 
-- Design and build specialized microservices to support vehicle purchase
-  flows.
+- Architect and develop specialized Kotlin microservices to support user
+  shopping flows.
+
+- Build and deploy IaC alongside microservices using Terraform, Datadog,
+  and Microsoft Azure.
 
 - Mentor software development interns and incoming junior developers.
 
-*Technologies:* Kotlin, Spring, Reactor, GraphQL, MongoDB & Atlas
-Search, Kubernetes, Helm, Azure
+*Technologies:* Kotlin, Spring, GraphQL, MongoDB & Atlas Search,
+PostgreSQL, Terraform, Kubernetes, Azure
 
 Full Stack Software Engineer  
 *Nov. 2017 — Feb. 2020*
@@ -26,18 +29,18 @@ Full Stack Software Engineer
 
 - Update and improve desktop, terminal, and web applications.
 
-- Maintain legacy steel mill production applications for internal and
+- Maintain monolithic legacy steel mill software tools for internal and
   external users.
 
 - Collaborate with developers and customers to gather requirements and
   centralize business knowledge.
 
-*Technologies:* Java, Spring, Angular, Javascript, C, SQL
+*Technologies:* Java, Spring, Angular, Typescript, C, SQL
 
 ### Technical Skills
 
 Languages/Frameworks:  
-Java, Kotlin, Spring, GraphQL, Python, C, JavaScript, Angular, C#,
+Java, Kotlin, Spring, GraphQL, Typescript, Angular, Python, C, C#,
 OpenGL
 
 Tools:  
@@ -47,13 +50,18 @@ Unity, Blender
 ### Projects and Accomplishments
 
 [Driveway.com:](https://driveway.com/shop)  
-Vehicle search APIs & database.
+Various APIs to support vehicle shopping flows.
 
 - Built using Kotlin, Spring, and MongoDB Atlas Search with CI/CD
   through Azure DevOps and Kubernetes/Helm.
 
-- Includes ETL processes, messaging systems, and realtime APIs from
-  multiple third party sources to provide tailored shopping experiences.
+- Services include: real-time inventory search & syndication systems,
+  photo aggregation service, tax & fee gateway, and address resolution
+  provider.
+
+- These systems contain ETL processes, moderate throughput messaging
+  systems, and live APIs from multiple third party sources to provide a
+  curated shopping experience.
 
 [ready-bot:](https://www.github.com/BurnsCommaLucas/ready-botlin)  
 A ready-check bot for Discord servers.
