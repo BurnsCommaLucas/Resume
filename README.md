@@ -37,53 +37,37 @@ Full Stack Software Engineer
 
 *Technologies:* Java, Spring, Angular, Typescript, C, SQL
 
-### Technical Skills
-
-Languages/Frameworks:  
-Java, Kotlin, Spring, GraphQL, Typescript, Angular, Python, C, C#,
-OpenGL
-
-Tools:  
-Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
-Unity, Blender
-
 ### Projects and Accomplishments
 
 [Driveway.com:](https://driveway.com/shop)  
 Various APIs to support vehicle shopping flows.
 
-- Built using Kotlin, Spring, and MongoDB Atlas Search with CI/CD
+- Built using Kotlin, Spring, MongoDB, PSQL, and GraphQL with CI/CD
   through Azure DevOps and Kubernetes/Helm.
 
 - Services include: real-time inventory search & syndication systems,
-  photo aggregation service, tax & fee gateway, and address resolution
-  provider.
+  photo aggregation service, tax & fee gateway, checkout flow
+  orchestrator service.
 
-- These systems contain ETL processes, moderate throughput messaging
-  systems, and live APIs from multiple third party sources to provide a
-  curated shopping experience.
+- Systems contain ETL processes, messaging systems, and live APIs from
+  multiple third party sources to provide a curated shopping experience.
 
-[ready-bot:](https://www.github.com/BurnsCommaLucas/ready-botlin)  
+[Ready-Bot:](https://www.github.com/BurnsCommaLucas/ready-botlin)  
 A ready-check bot for Discord servers.
 
 - Built using the Discord4J framework, verified by Discord, and active
   in 650+ unique Discord servers.
 
-- Deployed to Linode with automatic builds from GitHub & Jenkins.
+- Deployed to Linode with automatic builds via GitHub & Jenkins.
 
 - Integrates with MongoDB for persistent and redundant storage.
 
-Process-Week Generator:  
-Production planning utility to estimate mill order process-weeks.
+[API-Scout:](https://github.com/BurnsCommaLucas/API-Scout)  
+Mac native API testing tool.
 
-- Built using Java and Swing, pulls order/process information from
-  InformixDB.
+- Built using in Swift with SwiftUI.
 
-- Calculates a best-fit process timeline for a given order to find its
-  earliest possible ship date.
-
-- Used daily by a team of Production Planners to predict material
-  processing demand.
+- Made as an exercise in both Swift and Mac native software development.
 
 Miscellaneous:  
 - Able to solve a 3$\times$<!-- -->3 puzzle cube, best solve time 57
@@ -92,6 +76,16 @@ Miscellaneous:
 - Proficient in 8 musical instruments.
 
 - Eagle Scout, BSA.
+
+### Technical Skills
+
+Languages/Frameworks:  
+Java, Kotlin, Spring, GraphQL, Typescript, Angular, Swift, Python, C,
+C#, OpenGL
+
+Tools:  
+Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
+Unity, Blender
 
 ### Education
 
