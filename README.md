@@ -1,26 +1,32 @@
-### Experience
+## Experience
 
-Senior Backend Engineer,  
+Senior Backend Engineer  
 *Jan. 2022 — Present*
+
+*Driveway.com, Portland, OR*
+
+- Lead the design and implementation of complex software systems,
+  providing technical expertise and guidance to junior team members.
+
+- Oversee technical strategy, evaluating and selecting frameworks and
+  tools to optimize system performance and maintainability.
+
+- Mentor team members, conduct training sessions, and promote best
+  practices to foster a culture of excellence and innovation.
 
 Backend Engineer  
 *Feb. 2020 — Jan. 2022*
 
-*Driveway, Portland, OR*
+*Driveway.com, Portland, OR*
 
-- Design and implement a flexible search API for over 50,000 vehicles
-  across 250 dealerships using MongoDB Atlas.
+- Develop and maintain software applications, ensuring adherence to
+  project timelines and quality standards.
 
-- Architect and develop specialized Kotlin microservices to support user
-  shopping flows.
+- Collaborate with cross-functional teams to gather requirements, design
+  solutions, and implement features.
 
-- Build and deploy IaC alongside microservices using Terraform, Datadog,
-  and Microsoft Azure.
-
-- Mentor software development interns and incoming junior developers.
-
-*Technologies:* Kotlin, Spring, GraphQL, MongoDB & Atlas Search,
-PostgreSQL, Terraform, Kubernetes, Azure
+- Conduct code reviews, identify areas for optimization, and contribute
+  to the continuous improvement of development processes.
 
 Full Stack Software Engineer  
 *Nov. 2017 — Feb. 2020*
@@ -35,19 +41,16 @@ Full Stack Software Engineer
 - Collaborate with developers and customers to gather requirements and
   centralize business knowledge.
 
-*Technologies:* Java, Spring, Angular, Typescript, C, SQL
-
-### Projects and Accomplishments
+## Projects and Accomplishments
 
 [Driveway.com:](https://driveway.com/shop)  
 Various APIs to support vehicle shopping flows.
 
-- Built using Kotlin, Spring, MongoDB, PSQL, and GraphQL with CI/CD
-  through Azure DevOps and Kubernetes/Helm.
+- Built using Kotlin, Spring, MongoDB, and GraphQL with CI/CD through
+  Azure DevOps and Kubernetes/Helm.
 
 - Services include: real-time inventory search & syndication systems,
-  photo aggregation service, tax & fee gateway, checkout flow
-  orchestrator service.
+  tax & fee gateway, checkout flow orchestrator service.
 
 - Systems contain ETL processes, messaging systems, and live APIs from
   multiple third party sources to provide a curated shopping experience.
@@ -56,7 +59,7 @@ Various APIs to support vehicle shopping flows.
 A ready-check bot for Discord servers.
 
 - Built using the Discord4J framework, verified by Discord, and active
-  in 650+ unique Discord servers.
+  in 700+ unique Discord servers.
 
 - Deployed to Linode with automatic builds via GitHub & Jenkins.
 
@@ -77,7 +80,7 @@ Miscellaneous:
 
 - Eagle Scout, BSA.
 
-### Technical Skills
+## Technical Skills
 
 Languages/Frameworks:  
 Java, Kotlin, Spring, GraphQL, Typescript, Angular, Swift, Python, C,
@@ -87,16 +90,9 @@ Tools:
 Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
 Unity, Blender
 
-### Education
+## Education
 
 B.S. Computer Science, Mathematics Minor  
 *2013 - 2017*
 
 *University of Portland, Portland, OR*
-
-<div class="center">
-
-[Built with LaTeX & Pandoc
-](https://www.github.com/BurnsCommaLucas/Resume)
-
-</div>

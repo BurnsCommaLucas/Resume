@@ -1,6 +1,6 @@
 \documentclass{article}
     \usepackage{fancyhdr}
-    \usepackage[top=1in, bottom=0in, left=0.7in, right=0.7in]{geometry}
+    \usepackage[top=0.75in, bottom=0in, left=0.7in, right=0.7in]{geometry}
     \usepackage[hidelinks]{hyperref}\hypersetup{
         allcolors = black
     }
@@ -8,7 +8,7 @@
     \usepackage{enumitem} 
     \usepackage{multicol}
     \usepackage{fontawesome}
-    \setlist{leftmargin=1cm,labelindent=1cm,itemsep=1.4pt,parsep=0pt}
+    \setlist{leftmargin=0.5cm,labelindent=0.25cm,itemsep=1.4pt,parsep=0pt}
     \renewcommand{\familydefault}{\sfdefault}
     \renewcommand{\headrulewidth}{.5pt}
     \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} % make bullets smaller
@@ -21,28 +21,36 @@
     }
     \lhead{\href{mailto:lucas@burns.io}{\large \textit{lucas@burns.io}} }
     \rhead{\large \textit{253.279.3332}}
+    \def \intraspace {0.1em}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\subsubsection*{Experience}
+\subsection*{Experience}
 
     \begin{description}
 		
-	\item[Senior Backend Engineer,] \hfill \textit{Jan. 2022 — Present}
+	\item[Senior Backend Engineer] \hfill \textit{Jan. 2022 — Present}
+	
+        \textit{Driveway.com, Portland, OR}
+		\begin{itemize}
+    	\item Lead the design and implementation of complex software systems, providing technical expertise and guidance to junior team members.
+    	\item Oversee technical strategy, evaluating and selecting frameworks and tools to optimize system performance and maintainability.
+    	\item Mentor team members, conduct training sessions, and promote best practices to foster a culture of excellence and innovation.	
+		\end{itemize}
+		\vspace{\intraspace}
+	
 	\item[Backend Engineer] \hfill \textit{Feb. 2020 — Jan. 2022}
 		
-        \textit{Driveway, Portland, OR}
+        \textit{Driveway.com, Portland, OR}
         \begin{itemize}
-        \item Design and implement a flexible search API for over 50,000 vehicles across 250 dealerships using MongoDB Atlas.
-        \item Architect and develop specialized Kotlin microservices to support user shopping flows.
-        \item Build and deploy IaC alongside microservices using Terraform, Datadog, and Microsoft Azure.
-        \item Mentor software development interns and incoming junior developers.
+		\item Develop and maintain software applications, ensuring adherence to project timelines and quality standards.
+    	\item Collaborate with cross-functional teams to gather requirements, design solutions, and implement features.
+    	\item Conduct code reviews, identify areas for optimization, and contribute to the continuous improvement of development processes.
         \end{itemize}
-        \textit{Technologies:} Kotlin, Spring, GraphQL, MongoDB \& Atlas Search, PostgreSQL, Terraform, Kubernetes, Azure
-		\vspace{0.5em}
+		\vspace{\intraspace}
 
 	\item[Full Stack Software Engineer] \hfill \textit{Nov. 2017 — Feb. 2020}
 		
@@ -52,32 +60,31 @@
             \item Maintain monolithic legacy steel mill software tools for internal and external users.
             \item Collaborate with developers and customers to gather requirements and centralize business knowledge.
         \end{itemize}
-        \textit{Technologies:} Java, Spring, Angular, Typescript, C, SQL
         
     \end{description}
 %----------------------------------------------------------------------------------------
 %	PROJECTS SECTION
 %----------------------------------------------------------------------------------------
 
-\subsubsection*{Projects and Accomplishments}
+\subsection*{Projects and Accomplishments}
     \begin{description}
 
         \item[\href{https://driveway.com/shop}{Driveway.com:\hspace{0.075in}\faicon{link}}] Various APIs to support vehicle shopping flows.
             \begin{itemize}
-                \item Built using Kotlin, Spring, MongoDB, PSQL, and GraphQL with CI/CD through Azure DevOps and Kubernetes/Helm.
-                \item Services include: real-time inventory search \& syndication systems, photo aggregation service, tax \& fee gateway, checkout flow orchestrator service.
+                \item Built using Kotlin, Spring, MongoDB, and GraphQL with CI/CD through Azure DevOps and Kubernetes/Helm.
+                \item Services include: real-time inventory search \& syndication systems, tax \& fee gateway, checkout flow orchestrator service.
                 \item Systems contain ETL processes, messaging systems, and live APIs from multiple third party sources to provide a curated shopping experience.
             \end{itemize}
 
-            \vspace{0.5em}
+            \vspace{\intraspace}
         \item[\href{https://www.github.com/BurnsCommaLucas/ready-botlin}{Ready-Bot:\hspace{0.075in}\faicon{link}}] A ready-check bot for Discord servers.
             \begin{itemize}
-                \item Built using the Discord4J framework, verified by Discord, and active in 650+ unique Discord servers.
+                \item Built using the Discord4J framework, verified by Discord, and active in 700+ unique Discord servers.
                 \item Deployed to Linode with automatic builds via GitHub \& Jenkins.
                 \item Integrates with MongoDB for persistent and redundant storage.
             \end{itemize}
 
-            \vspace{0.5em}
+            \vspace{\intraspace}
 
         \item[\href{https://github.com/BurnsCommaLucas/API-Scout}{API-Scout:\hspace{0.075in}\faicon{link}}] Mac native API testing tool.
             \begin{itemize}
@@ -85,7 +92,7 @@
             	\item Made as an exercise in both Swift and Mac native software development.
             \end{itemize}
 
-            \vspace{0.5em}
+            \vspace{\intraspace}
 
         \item[Miscellaneous:] \hfill
             \begin{itemize}
@@ -99,7 +106,7 @@
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\subsubsection*{Technical Skills}
+\subsection*{Technical Skills}
     \begin{description}    
         \item[Languages/Frameworks:] 
             Java, 
@@ -114,7 +121,7 @@
             C\#,
             OpenGL
 
-            \vspace{0.5em}
+            \vspace{\intraspace}
 
         \item[Tools:] 
             Unix,
@@ -134,26 +141,11 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-\subsubsection*{Education}
+\subsection*{Education}
     \begin{description}
         \item[B.S. Computer Science, Mathematics Minor]\hfill \textit{2013 - 2017}
 
         \textit{University of Portland, Portland, OR}
-
-%        \vspace{0.5em}
-
-%        \item[Coursework:]
-%            Computer Networks, 
-%            Artificial Intelligence, 
-%            Computer Graphics, 
-%            Analysis of Algorithms,
-%            Statistics \& Probability,
-%            Linear Algebra
     \end{description}
-    
-    \begin{center}
-	\vspace{.25in}
-    \href{https://www.github.com/BurnsCommaLucas/Resume}{\small Built with \LaTeX \hspace{0.001in} \& Pandoc \faicon{github}}
-    \end{center}
 
 \end{document}
