@@ -1,7 +1,12 @@
 ## Experience
 
+Senior Software Engineer  
+*Aug. 2024 — Present*
+
+*Reveleer, Portland, OR*
+
 Senior Backend Engineer  
-*Jan. 2022 — Present*
+*Jan. 2022 — Aug. 2024*
 
 *Driveway.com, Portland, OR*
 
@@ -87,8 +92,8 @@ Java, Kotlin, Spring, GraphQL, Typescript, Angular, Swift, Python, C,
 C#, OpenGL
 
 Tools:  
-Unix, Shell, Git, SQL, NoSQL, Azure, Kubernetes, Jenkins, Maven, Gradle,
-Unity, Blender
+Unix, Shell, Git, SQL, NoSQL, Azure, Docker, Kubernetes, Jenkins, Maven,
+Gradle
 
 ## Education
 
