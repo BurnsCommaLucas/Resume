@@ -5,6 +5,15 @@ Senior Software Engineer
 
 *Reveleer, Portland, OR*
 
+- Architect migration of monolithic systems from EC2 Windows servers to
+  EKS with Fargate.
+
+- Foster modern build & deploy processes with DevOps to create reusable
+  and maintainable deploy systems.
+
+- Facilitate technical work breakdown and review code contributions from
+  numerous team members.
+
 Senior Backend Engineer  
 *Jan. 2022 — Aug. 2024*
 
@@ -46,19 +55,7 @@ Full Stack Software Engineer
 - Collaborate with developers and customers to gather requirements and
   centralize business knowledge.
 
-## Projects and Accomplishments
-
-[Driveway.com:](https://driveway.com/shop)  
-Various APIs to support vehicle shopping flows.
-
-- Built using Kotlin, Spring, MongoDB, and GraphQL with CI/CD through
-  Azure DevOps and Kubernetes/Helm.
-
-- Services include: real-time inventory search & syndication systems,
-  tax & fee gateway, checkout flow orchestrator service.
-
-- Systems contain ETL processes, messaging systems, and live APIs from
-  multiple third party sources to provide a curated shopping experience.
+## Personal Projects and Accomplishments
 
 [Ready-Bot:](https://www.github.com/BurnsCommaLucas/ready-botlin)  
 A ready-check bot for Discord servers.
@@ -92,8 +89,8 @@ Java, Kotlin, Spring, GraphQL, Typescript, Angular, Swift, Python, C,
 C#, OpenGL
 
 Tools:  
-Unix, Shell, Git, SQL, NoSQL, Azure, Docker, Kubernetes, Jenkins, Maven,
-Gradle
+Azure, AWS, Docker, Kubernetes, Git, SQL, NoSQL, Unix, Shell, Jenkins,
+Maven, Gradle
 
 ## Education
 
